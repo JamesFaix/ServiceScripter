@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceScripter", "ServiceScripter\ServiceScripter.csproj", "{D090B9A2-1F52-4507-8092-321CECCBFFA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{7F17227B-88FD-4FC0-8C6B-8A9750C67968}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\netstandard1.4\Fun.deps.json = Lib\netstandard1.4\Fun.deps.json
+		Lib\netstandard1.4\Fun.dll = Lib\netstandard1.4\Fun.dll
+		Lib\netstandard1.4\Fun.pdb = Lib\netstandard1.4\Fun.pdb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D090B9A2-1F52-4507-8092-321CECCBFFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D090B9A2-1F52-4507-8092-321CECCBFFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D090B9A2-1F52-4507-8092-321CECCBFFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D090B9A2-1F52-4507-8092-321CECCBFFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

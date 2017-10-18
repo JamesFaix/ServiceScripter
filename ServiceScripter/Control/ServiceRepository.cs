@@ -50,7 +50,7 @@ namespace ServiceScripter.Control
                         || (!result.HasValue && result.Error.InnerException.Message == alreadyRunning),
                     getErrorMessage: result => result.HasValue 
                         ? "Timed out without getting an acceptable value."
-                        : "Timed out with exception.",
+                        : $"Timed out with exception: '{result.Error.Message}'",
                     maxAttempts: maxAttempts,
                     interval: retryInterval)
                 .IgnoreAsync()
@@ -78,7 +78,7 @@ namespace ServiceScripter.Control
                     predicate: result => result.HasValue && result.Value,
                     getErrorMessage: result => result.HasValue
                         ? "Timed out without getting an acceptable value."
-                        : "Timed out with exception.",
+                        : $"Timed out with exception: '{result.Error.Message}'",
                     maxAttempts: maxAttempts,
                     interval: retryInterval)
                 .IgnoreAsync();
